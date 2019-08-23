@@ -1,0 +1,55 @@
+@font-face{
+    font-family: 'LatoRegular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Lato-Regular.eot') format('embedded-opentype'),
+         url('../fonts/Lato-Regular.ttf') format('truetype'),
+         url('../fonts/Lato-Regular.woff') format('woff'),
+         local('Lato Regular'), 
+         local('Lato-Regular'),
+         url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+/* ---- All Svg icons definitions ---- */
+.icon-header, .icon-comptences,
+.icon-social{
+    display: inline-block;
+    background-size: cover;
+}
+
+.icon-header{
+    width: 1.8em;
+    height: 1.8em;
+    fill: #707070;
+}
+.icon-competences{
+    width: 4.19em;
+    height: 4.19em;
+    fill: #84bc22;
+}
+.icon-social{
+    width: 1.7em;
+    height: 1.88em;
+    fill:#949494;
+}
+.arrow-solid{
+    width: 7px;
+    height: 12px;
+    transform: rotate(90deg);
+    fill: #bdc3c7;
+}
+.arrow-slim{
+    width: 0.7em;
+    height: 0.7em;
+    margin: 9.4px;
+    fill: #bdc3c7;
+}
