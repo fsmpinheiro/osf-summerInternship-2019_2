@@ -1,53 +1,59 @@
-@font-face{
+@font-face {
     font-family: 'LatoRegular';
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/Lato-Regular.eot') format('embedded-opentype'),
-         url('../fonts/Lato-Regular.ttf') format('truetype'),
-         url('../fonts/Lato-Regular.woff') format('woff'),
-         local('Lato Regular'), 
-         local('Lato-Regular'),
-         url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+        url('../fonts/Lato-Regular.ttf') format('truetype'),
+        url('../fonts/Lato-Regular.woff') format('woff'),
+        local('Lato Regular'),
+        local('Lato-Regular'),
+        url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
 }
 
 
-body{
+body {
     background-color: rgb(255, 255, 255);
 }
+
 .wrapper {
     margin: 0 auto;
     max-width: 1280px;
 }
 
 /* ---- All Svg icons definitions ---- */
-.icon-header, .icon-comptences,
-.icon-social{
+.icon-header,
+.icon-comptences,
+.icon-social {
     display: inline-block;
     background-size: cover;
 }
 
-.icon-header{
+.icon-header {
     width: 1.8em;
     height: 1.8em;
     fill: #999999;
 }
-.icon-competences{
+
+.icon-competences {
     width: 4.19em;
     height: 4.19em;
     fill: #84bc22;
 }
-.icon-social{
+
+.icon-social {
     width: 1.7em;
     height: 1.88em;
-    fill:#949494;
+    fill: #949494;
 }
-.arrow-solid{
+
+.arrow-solid {
     width: 7px;
     height: 12px;
     transform: rotate(90deg);
     fill: #bdc3c7;
 }
-.arrow-slim{
+
+.arrow-slim {
     width: 0.7em;
     height: 0.7em;
     margin: 9.4px;
@@ -56,28 +62,35 @@ body{
 
 
 
-body{
+body {
     margin: 0;
     background-color: rgb(255, 255, 255);
 }
-.wrapper, .botton-footer{
+
+.wrapper,
+.botton-footer {
     margin: 0 auto;
     max-width: 1280px;
 }
 
-ul, ol{
+ul,
+ol {
     list-style: none;
     padding-left: 0;
 }
-li{
+
+li {
     margin-bottom: 10px;
 }
-address{
+
+address {
     font-style: normal;
     line-height: 1.5;
 }
 
-.footer-item li a, .about-item-list, 
-.c-mainmenu a, .c-nationality a{
+.footer-item li a,
+.about-item-list,
+.c-mainmenu a,
+.c-nationality a {
     text-decoration: none;
 }
