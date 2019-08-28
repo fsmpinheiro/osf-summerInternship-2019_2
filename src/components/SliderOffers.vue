@@ -13,6 +13,53 @@
         <div class="wrapper">
             <div class="container">
                 <div class="container-1">
+                    <agile :navButtons="false" :infinite="true" :autoplay="false" :autoplaySpeed="600" :fade="false">
+                        <div class="slide slide1">
+                            <div id="message">
+                                <h1>Control and manage any<br>device with cloud solutions</h1>
+                                <p>Improve business performance and the user experience<br>with the right mix of IoT technology and processes</p>
+                                <div class="view-morebotton">
+                                    <a href="#"> View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide slide2">
+                            <div id="message">
+                                <h1>Control and manage any<br>device with cloud solutions</h1>
+                                <p>Improve business performance and the user experience<br>with the right mix of IoT technology and processes</p>
+                                <div class="view-morebotton">
+                                    <a href="#"> View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide slide3">
+                            <div id="message">
+                                <h1>Control and manage any<br>device with cloud solutions</h1>
+                                <p>Improve business performance and the user experience<br>with the right mix of IoT technology and processes</p>
+                                <div class="view-morebotton">
+                                    <a href="#"> View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide slide4">
+                            <div id="message">
+                                <h1>Control and manage any<br>device with cloud solutions</h1>
+                                <p>Improve business performance and the user experience<br>with the right mix of IoT technology and processes</p>
+                                <div class="view-morebotton">
+                                    <a href="#"> View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide slide5">
+                            <div id="message">
+                                <h1>Control and manage any<br>device with cloud solutions</h1>
+                                <p>Improve business performance and the user experience<br>with the right mix of IoT technology and processes</p>
+                                <div class="view-morebotton">
+                                    <a href="#"> View more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </agile>                    
                 </div>
                 <div class="container-2">
                     <div class="offerbanner">
@@ -34,8 +81,14 @@
 </template>
 
 <script>
+import { VueAgile } from 'vue-agile'
+
+
 export default {
-    name : 'SliderOffers'
+    name : 'SliderOffers',
+    components: {
+		agile : VueAgile
+    }
 }
 </script>
 
@@ -43,18 +96,79 @@ export default {
 <style scoped>
 .container{
     margin: 26px 55px;
-    
 }
 .container-1, .container-2{
     display: inline-block;
 }
 .container-1{
     width: 870px;
-    height: 505px;
-    background: url('../assets/imgs/slider-background1.png');
-    border-radius: 5px;
     display: inline-block;
 }
+.container-1 .slide{
+    height: 505px;
+    border-radius: 8px;
+    background-color: #45413e;
+    font-family: 'LatoRegular';
+    color:#ffffff;
+}
+.container-1 .slide #message{
+    margin: 0 60px 0 60px;
+}
+.container-1 .slide h1, .container-1 .slide p {
+    margin: 60px 0;
+    letter-spacing: 1.2px;
+    text-shadow: 1px 1px 2px #45413e;
+}
+
+
+.view-morebotton a{
+    font-family: 'LatoRegular';
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    padding: 9px 34px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    width: 150px;
+    height: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 22px;
+    transition-duration: 0.5s;
+}
+.view-morebotton a:hover{
+    color: black;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    
+}
+
+
+.container-1 .slide1{
+    text-align: left;
+    background: #45413e url("../assets/imgs/slider-background3.png") no-repeat 15% 60% ;
+
+}
+.container-1 .slide2{
+    text-align: center;
+    background: url('../assets/imgs/slider-background2.png') no-repeat 30% 100%;
+}
+.container-1 .slide3{
+    text-align: center;
+    background: url('../assets/imgs/slider-background1.png') no-repeat 15% 5%;
+}
+.container-1 .slide4{
+    text-align: center;
+    background: url('../assets/imgs/slider-background4.png') no-repeat right;
+
+}
+.container-1 .slide5{
+    text-align: justify;
+    background: url('../assets/imgs/slider-background5.png') no-repeat 100% 97%;
+}
+
+
+
 
 .offerbanner{
     margin: 0  0 0 30px;
@@ -89,8 +203,6 @@ export default {
 .followinvite{
     width: 270px;
     margin: 13px 0 0 30px;
-    /* margin-left: 30px;
-    margin-top: 30px; */
     display: block;
     text-align: center;
     float: left;
@@ -115,6 +227,9 @@ export default {
     border: 2px solid #3a5b96;
     border-radius: 22px;
 }
+
+
+
 .linkbutton a{
     padding: 12px 28px;
     line-height: 40px;
@@ -128,4 +243,39 @@ export default {
     margin: -4px 0;
     fill: #3a5b96;
 }
+</style>
+
+<style >
+
+
+.agile__dots {
+  bottom: 10px;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.agile__dot {
+  margin: 0 10px;
+}
+.agile__dot button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  height: 12px;
+  width: 12px;
+  font-size: 0;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  transition-duration: 0.5s;
+  
+}
+.agile__dot--current button, .agile__dot:hover button {
+  background-color: #fff;
+}
+
+
 </style>
