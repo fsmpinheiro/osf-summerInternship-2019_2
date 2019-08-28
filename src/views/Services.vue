@@ -1,22 +1,19 @@
-<template>
-<div>
-    <div class="wrapper">
-        <div class="services-body">
 
-        </div>
-    </div>
-</div>
+<template>
     
 </template>
 
 <script>
+import Header from '@/components/Header.vue'
+
+import Footer from '@/components/Footer.vue'
+
 export default {
-    name : 'Services'
+    name : 'services',
+    components : {
+        Header,
+
+        Footer
+    }
 }
 </script>
-
-<style scoped>
-.services-body{
-    background-color: #f2edea;
-}
-</style>
