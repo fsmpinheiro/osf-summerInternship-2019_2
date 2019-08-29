@@ -53,59 +53,59 @@
                 <li>
                     <ul class="categories-list">
                     <li>
-                        <a href="#">Alcohol</a>
+                        <router-link to="notfound-404-error">Alcohol</router-link>
                     </li>
                     <li>
-                        <a href="#">Art</a>
+                        <router-link to="notfound-404-error">Art</router-link>
                     </li>
                     <li>
-                        <a href="#">Books</a>
+                        <router-link to="notfound-404-error">Books</router-link>
                     </li>
                     <li>
-                        <a href="#">Drink</a>
+                        <router-link to="notfound-404-error">Drink</router-link>
                     </li>
                     <li>
-                        <a href="#">Electronics</a>
-                    </li>
-                    </ul>
-                    <ul class="categories-list">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Jewelry</a>
-                    </li>
-                    <li>
-                        <a href="#">Kids &#38; Baby</a>
-                    </li>
-                    <li>
-                        <a href="#">Men's Fashion</a>
-                    </li>
-                    <li>
-                        <a href="#">Mobile</a>
-                    </li>
-                    <li>
-                        <a href="#">Motorcycles</a>
-                    </li>
-                    <li>
-                        <a href="#">Movies</a>
-                    </li>
-                    <li>
-                        <a href="#">Music</a>
+                        <router-link to="notfound-404-error">Electronics</router-link>
                     </li>
                     </ul>
                     <ul class="categories-list">
                     <li>
-                        <a href="#">Sport</a>
+                        <router-link to="notfound-404-error">Home</router-link>
                     </li>
                     <li>
-                        <a href="#">Toys</a>
+                        <router-link to="notfound-404-error">Jewelry</router-link>
                     </li>
                     <li>
-                        <a href="#">Travel</a>
+                        <router-link to="notfound-404-error">Kids &#38; Baby</router-link>
                     </li>
                     <li>
-                        <a href="#">Women's Fashion</a>
+                        <router-link to="notfound-404-error">Men's Fashion</router-link>
+                    </li>
+                    <li>
+                        <router-link to="notfound-404-error">Mobile</router-link>
+                    </li>
+                    <li>
+                        <router-link to="notfound-404-error">Motorcycles</router-link>
+                    </li>
+                    <li>
+                        <router-link to="notfound-404-error">Movies</router-link>
+                    </li>
+                    <li>
+                        <router-link to="notfound-404-error">Music</router-link>
+                    </li>
+                    </ul>
+                    <ul class="categories-list">
+                    <li>
+                        <router-link to="notfound-404-error">Sport</router-link>
+                    </li>
+                    <li>
+                        <router-link to="notfound-404-error">Toys</router-link>
+                    </li>
+                    <li>
+                        <router-link to="notfound-404-error">Travel</router-link>
+                    </li>
+                    <li>
+                        <router-link to="notfound-404-error">Women's Fashion</router-link>
                     </li>
                     </ul>
                 </li>
@@ -116,16 +116,16 @@
                 <ul class="footer-item">
                 <h3>About</h3>
                 <li>
-                    <a href="#">About us</a>
+                    <router-link to="notfound-404-error">About us</router-link>
                 </li>
                 <li>
-                    <a href="#">Delivery</a>
+                    <router-link to="notfound-404-error">Delivery</router-link>
                 </li>
                 <li>
-                    <a href="#">Testimonials</a>
+                    <router-link to="notfound-404-error">Testimonials</router-link>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <router-link to="notfound-404-error">Contact</router-link>
                 </li>
                 </ul>
             </div>
@@ -134,38 +134,38 @@
                 <ul>
                 <li class="single-social-link">
                     <div>
-                    <a href="#">
+                    <router-link to="notfound-404-error">
                         <svg class="icon-social">
                         <use xlink:href="#icon-facebook-square" />
                         </svg>  
-                    </a>
+                    </router-link>
                     </div>
                 </li>
                 <li class="single-social-link">
                     <div>
-                    <a href="#">
+                    <router-link to="notfound-404-error">
                         <svg class="icon-social">
                         <use xlink:href="#icon-google-plus-square" />
                         </svg>
-                    </a>
+                    </router-link>
                     </div>
                 </li>
                 <li class="single-social-link">
                     <div>
-                    <a href="#">
+                    <router-link to="notfound-404-error">
                         <svg class="icon-social">
                         <use xlink:href="#icon-twitter-square" /> 
                         </svg>
-                    </a>
+                    </router-link>
                     </div>
                 </li>
                 <li class="single-social-link">
                     <div>
-                    <a href="#">
+                    <router-link to="notfound-404-error">
                         <svg class="icon-social">
                         <use xlink:href="#icon-pinterest-square" />
                         </svg>
-                    </a>
+                    </router-link>
                     </div>
                 </li>
                 </ul>

@@ -58,7 +58,7 @@
       <div class="wrapper">
         <nav>
           <div id="item-1-logoBrand" class="c-OSFbrand">
-              <a href="#">
+              <router-link to="/">
                <div> 
                 <img src="../assets/imgs/ui-kit_osf-logo.png" id="osf-logo" alt="Osf Logo" />
               </div>
@@ -66,7 +66,7 @@
                 <p id="osf-brand-0">Osf</p>
                 <p id="osf-brand-1">Academy</p>
               </div>
-              </a>
+              </router-link>
           </div>
 
 
@@ -74,55 +74,55 @@
 
             <div class="menu-item" id="dropdown">
                 
-                      <a href="#" class="dropbtn">Services 
+                      <router-link to="services" class="dropbtn">Services 
                         <svg class="arrow-solid"><use xlink:href="#solid-arrow" /></svg>
-                      </a>
+                      </router-link>
 
                       <div class="dropdown-content services-list">
                       
                         <div class="categs-1"><p>Product Categories</p> 
                           <div class="content-column">
-                            <a href="#"> <p>Acessories </p> </a>
-                            <a href="#"> <p>Alcohol </p> </a>
-                            <a href="#"> <p>Art </p> </a>
-                            <a href="#"> <p>Books </p> </a>
-                            <a href="#"> <p>Drink </p> </a>
-                            <a href="#"> <p>Electronics </p> </a>
-                            <a href="#"> <p>Flowers &#38; Plants </p> </a>
-                            <a href="#"> <p>Food </p> </a>
+                            <router-link to="notfound-404-error"> <p>Acessories </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Alcohol </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Art </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Books </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Drink </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Electronics </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Flowers &#38; Plants </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Food </p> </router-link>
                           </div>
                           <div class="content-column">
-                            <a href="#"> <p>Gadgets </p> </a>
-                            <a href="#"> <p>Garden </p> </a>
-                            <a href="#"> <p>Grocery </p> </a>
-                            <a href="#"> <p>Home </p> </a>
-                            <a href="#"> <p>Jewelry </p> </a>
-                            <a href="#"> <p>Kids &#38; Baby </p> </a>
-                            <a href="#"> <p>Man's Fashion </p> </a>
-                            <a href="#"> <p>Mobile </p> </a>
+                            <router-link to="notfound-404-error"> <p>Gadgets </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Garden </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Grocery </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Home </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Jewelry </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Kids &#38; Baby </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Man's Fashion </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Mobile </p> </router-link>
                           </div>
                           <div class="content-column">
-                            <a href="#"> <p>Motorcycles </p> </a>
-                            <a href="#"> <p>Movies </p> </a>
-                            <a href="#"> <p>Music </p> </a>
-                            <a href="#"> <p>Office </p> </a>
-                            <a href="#"> <p>Pets </p> </a>
-                            <a href="#"> <p>Romantic </p> </a>
-                            <a href="#"> <p>Sport </p> </a>
-                            <a href="#"> <p>Toys </p> </a>
+                            <router-link to="notfound-404-error"> <p>Motorcycles </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Movies </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Music </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Office </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Pets </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Romantic </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Sport </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Toys </p> </router-link>
                           </div>
                         </div>
 
                         <div class="categs-2"><p>Sale</p>
                           <div class="content-column">
-                            <a href="#"> <p>Accessories </p> </a>
-                            <a href="#"> <p>Alcohol </p> </a>
-                            <a href="#"> <p>Art </p> </a>
-                            <a href="#"> <p>Books </p> </a>
-                            <a href="#"> <p>Drink </p> </a>
-                            <a href="#"> <p>Electronics </p> </a>
-                            <a href="#"> <p>Flowers &#38; Plants </p> </a>
-                            <a href="#"> <p>Food </p> </a>
+                            <router-link to="notfound-404-error"> <p>Accessories </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Alcohol </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Art </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Books </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Drink </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Electronics </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Flowers &#38; Plants </p> </router-link>
+                            <router-link to="notfound-404-error"> <p>Food </p> </router-link>
                           </div>
                         </div>
                         
@@ -135,15 +135,15 @@
             </div>
 
             <div class="menu-item" id="menu-item">
-              <a href="" class="">Company</a>
+              <router-link to="notfound-404-error">Company</router-link>
             </div>
 
             <div class="menu-item" id="menu-item">
-              <a href="">Library</a>
+              <router-link to="notfound-404-error">Library</router-link>
             </div>
 
             <div class="menu-item" id="menu-item">
-              <a href="">Contact Us</a>
+              <router-link to="notfound-404-error">Contact Us</router-link>
             </div>
           </div>
 

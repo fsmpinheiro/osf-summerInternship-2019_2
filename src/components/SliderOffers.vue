@@ -13,12 +13,12 @@
         <div class="wrapper">
             <div class="container">
                 <div class="container-1">
-                    <agile :navButtons="false" :infinite="true" :autoplay="false" :autoplaySpeed="600" :fade="false">
+                    <agile :navButtons="false" :infinite="true" :autoplay="true" :autoplaySpeed="1600" :fade="false" :rtl="false">
                         <div class="slide slide1">
                             <div id="message">
                                 <h1>Control and manage any<br>device with cloud solutions</h1>
                                 <p>Improve business performance and the user experience<br>with the right mix of IoT technology and processes</p>
-                                <div class="view-morebotton">
+                                <div class="view-morebutton">
                                     <a href="#"> View more</a>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@
                             <div id="message">
                                 <h1>Control and manage any<br>device with cloud solutions</h1>
                                 <p>Improve business performance and the user experience<br>with the right mix of IoT technology and processes</p>
-                                <div class="view-morebotton">
+                                <div class="view-morebutton">
                                     <a href="#"> View more</a>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@
                             <div id="message">
                                 <h1>Control and manage any<br>device with cloud solutions</h1>
                                 <p>Improve business performance and the user experience<br>with the right mix of IoT technology and processes</p>
-                                <div class="view-morebotton">
+                                <div class="view-morebutton">
                                     <a href="#"> View more</a>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@
                             <div id="message">
                                 <h1>Control and manage any<br>device with cloud solutions</h1>
                                 <p>Improve business performance and the user experience<br>with the right mix of IoT technology and processes</p>
-                                <div class="view-morebotton">
+                                <div class="view-morebutton">
                                     <a href="#"> View more</a>
                                 </div>
                             </div>
@@ -54,7 +54,16 @@
                             <div id="message">
                                 <h1>Control and manage any<br>device with cloud solutions</h1>
                                 <p>Improve business performance and the user experience<br>with the right mix of IoT technology and processes</p>
-                                <div class="view-morebotton">
+                                <div class="view-morebutton">
+                                    <a href="#"> View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide slide6">
+                            <div id="message">
+                                <h1>Control and manage any<br>device with cloud solutions</h1>
+                                <p>Improve business performance and the user experience<br>with the right mix of IoT technology and processes</p>
+                                <div class="view-morebutton">
                                     <a href="#"> View more</a>
                                 </div>
                             </div>
@@ -121,7 +130,7 @@ export default {
 }
 
 
-.view-morebotton a{
+.view-morebutton a{
     font-family: 'LatoRegular';
     font-size: 14px;
     text-transform: uppercase;
@@ -136,7 +145,7 @@ export default {
     border-radius: 22px;
     transition-duration: 0.5s;
 }
-.view-morebotton a:hover{
+.view-morebutton a:hover{
     color: black;
     background-color: #ffffff;
     border: 2px solid #ffffff;
@@ -154,7 +163,7 @@ export default {
     background: url('../assets/imgs/slider-background2.png') no-repeat 30% 100%;
 }
 .container-1 .slide3{
-    text-align: center;
+    text-align: right;
     background: url('../assets/imgs/slider-background1.png') no-repeat 15% 5%;
 }
 .container-1 .slide4{
@@ -163,8 +172,12 @@ export default {
 
 }
 .container-1 .slide5{
-    text-align: justify;
+    text-align: right;
     background: url('../assets/imgs/slider-background5.png') no-repeat 100% 97%;
+}
+.container-1 .slide6{
+    text-align: left;
+    background: url('../assets/imgs/slider-background6.png') no-repeat 65% 20%;
 }
 
 
