@@ -27,8 +27,31 @@
                         <p class="label">Size</p>
                         <div class="opt-field">Small</div>
                     </div>
-
+                    <div class="column">
+                        <p class="label">Color</p>
+                        <div class="opt-field opt-colors">
+                            <ul class="opt-dots">
+                                <li class="opt-dot color1"> </li>
+                                <li class="opt-dot color2"> </li>
+                                <li class="opt-dot color3"> </li>
+                                <li class="opt-dot color4"> </li>
+                                <li class="opt-dot color5"> </li>
+                                <li class="opt-dot color6"> </li>
+                                <li class="opt-dot color7"> </li>
+                                <li class="opt-dot color8"> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p class="label">Sort by</p>
+                        <div class="opt-field">Price</div>
+                    </div>
+                    <div class="column">
+                        <p class="label">Show</p>
+                        <div class="opt-field">16 per page</div>
+                    </div>
                 </div>
+                
             </div>
         </div>
     </div>
@@ -44,6 +67,7 @@ export default {
 <style scoped>
 .wrapper{
     background-color: #f1edea;
+    min-height: 500px;
 }
 .breadcumbs{
     padding: 45px 0 10px 435px;
@@ -94,22 +118,25 @@ export default {
     height: 166px;
     background-color: #fff;
     margin: 15px 0;
-    border: 1px solid #45413e;
     border-radius: 8px;
 }
 .filters .column{
+    text-align: center;
     float: left;
-    height: 10.3em;
+    height: 5em;
     width: 33.33%;
-    background-color: none;
     font-family: 'LatoRegular';
 }
 .label{
     display: inline-block;
     float: none;
     font-size: 14px;
+    margin-right: 10px;
 }
 
+.column .opt-colors{
+    border: none;
+}
 .opt-field{
     display: inline-block;
     float: none;
@@ -119,9 +146,55 @@ export default {
     border: 1px solid #45413e;
     width: 198px;
     height: 32px;
-    text-align: center;
     line-height: 33px;
-    border-radius: 15px;
+    border-radius: 18px;
 }
-
+.opt-dots{
+    bottom: 10px;
+    -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+    display: flex;
+    float: none;
+    margin: 0px;
+    margin-left: 105px;
+    align-items: center;
+    list-style: none;
+    width: 200px;
+    
+}
+.opt-dot{
+    margin: 0 1.5px;
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 50%;
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+.opt-dot:hover{
+    border: 2px solid #45413e;
+}
+.opt-dots .color1{
+    background-color: #ffffff;
+}
+.opt-dots .color2{
+    background-color: #43c0cf;
+}
+.opt-dots .color3{
+    background-color: #3d402f;
+}
+.opt-dots .color4{
+    background-color: #4aaf00;
+}
+.opt-dots .color5{
+    background-color: #315bbd;
+}
+.opt-dots .color6{
+    background-color: #ec6115;
+}
+.opt-dots .color7{
+    background-color: #dc041d;
+}
+.opt-dots .color8{
+    background-color: #efead7;
+}
 </style>

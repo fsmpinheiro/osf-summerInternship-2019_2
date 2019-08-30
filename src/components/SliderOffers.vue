@@ -13,6 +13,7 @@
         <div class="wrapper">
             <div class="container">
                 <div class="container-1">
+                    <!-- Begin of Vue-agile pligun carousel -->
                     <agile :navButtons="false" :infinite="true" :autoplay="true" :autoplaySpeed="1600" :fade="false" :rtl="false">
                         <div class="slide slide1">
                             <div id="message">
@@ -68,7 +69,8 @@
                                 </div>
                             </div>
                         </div>
-                    </agile>                    
+                    </agile>
+                    <!-- End of Vue-agile pligun carousel -->         
                 </div>
                 <div class="container-2">
                     <div class="offerbanner">
@@ -260,7 +262,7 @@ export default {
 
 <style >
 
-
+/* Used for vue-agile pligun carousel */
 .agile__dots {
   bottom: 10px;
   left: 50%;
