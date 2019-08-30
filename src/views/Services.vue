@@ -4,12 +4,15 @@
         <!-- <Header begin section> -->
         <Header />
         <!-- <Header end section> -->
+
         <!-- <Services begin section> -->
         <Services />
         <!-- <Services end section> -->
+
         <!-- <FeaturedProducts begin section> -->
         <FeaturedProducts />
         <!-- <FeaturedProducts end section> -->
+            
         <!-- <Footer begin section> -->
         <Footer />
         <!-- <Footer end section> -->

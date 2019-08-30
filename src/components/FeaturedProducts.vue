@@ -36,68 +36,6 @@ export default {
 
 
 <style scoped>
-ul, li{
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-}
-.div-feat-itens{
-    padding: 0 3.438em;
-    background-color: #262a32;
-    
-}
-.feat-label{
-    font-family: 'LatoRegular';
-    color: #ffffff;
-    text-align: center;
-    padding: 34px 0 21px 0;
-    letter-spacing: 0.1em;
-    margin: auto;
-}
-.feat-label h1{
- font-size: 36px;
- margin: 0.4em 0;   
-}
-.feat-label span{
-    font-size: 18px;   
-}
-.carrousel-controler,
-.carrousel-button{
-    height: 30px;
-}
-.carrousel-controler{
-    width: 592px;
-    text-align: center;
-    margin: auto;
-}
-.carrousel-button{
-    width: 30px;
-    background-color: #45413e;
-}
-.carrousel-controler div{
-    float: left;
-}
-.diagonal{
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 1.5em;
-}
-.diagonal p{
-    margin: 0;
-}
-.horizontal hr{
-    fill: #ffffff;
-    height: 0.125em;
-    width: 14.375em;
-    border: none;
-    background-color: #ffffff;
-    margin: 14px 9px;
-}
-.leftArrow{
-    transform: rotate(90deg);
-}
-.rightArrow{
-    transform: rotate(270deg);
-}
-
+li,ul{padding:0;margin:0}.div-feat-itens{padding:0 3.438em;background-color:#262a32}.feat-label{font-family:LatoRegular;color:#fff;text-align:center;padding:34px 0 21px 0;letter-spacing:.1em;margin:auto}.feat-label h1{font-size:36px;margin:.4em 0}.feat-label span{font-size:18px}.carrousel-button,.carrousel-controler{height:30px}.carrousel-controler{width:592px;text-align:center;margin:auto}.carrousel-button{width:30px;background-color:#45413e}.carrousel-controler div{float:left}.diagonal{color:#fff;font-weight:700;font-size:1.5em}.diagonal p{margin:0}.horizontal hr{fill:#fff;height:.125em;width:14.375em;border:none;background-color:#fff;margin:14px 9px}.leftArrow{transform:rotate(90deg)}.rightArrow{transform:rotate(270deg)}
 
 </style>

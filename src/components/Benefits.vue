@@ -18,7 +18,6 @@
       <ul>
         <li class="competence">
           <div>
-            <!-- <svg class="icon-comptences icon-cart" /> -->
             <svg class="icon-competences">
               <use xlink:href="#icon-cart" />
             </svg>  
@@ -33,7 +32,6 @@
 
         <li class="competence">
           <div>
-            <!-- <svg class="icon-comptences icon-recycle" /> -->
             <svg class="icon-competences">
               <use xlink:href="#icon-recycle" />
             </svg>
@@ -48,7 +46,6 @@
 
         <li class="competence">
           <div>
-            <!-- <svg class="icon-comptences icon-tasklist" /> -->
             <svg class="icon-competences">
               <use xlink:href="#icon-tasklist" />
             </svg>
@@ -75,59 +72,5 @@ export default {
 </script>
 
 <style scoped>
-ul,
-li {
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
-}
-
-ul,
-ol {
-  list-style: none;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-.div-competences {
-  height: 12.5em;
-  background-color: #45413e;
-  padding: 0 3.438em;
-}
-
-.competence {
-  float: left;
-  height: 100%;
-  width: 24.125em;
-}
-
-.competence svg {
-  margin: 4.063em 0.938em 0 0;
-}
-
-.competence .container {
-  margin: 2.188em 1.563em 2.188em 0;
-  float: right;
-}
-
-.competence .container #p1,
-.competence .container #p2 {
-  font-family: 'LatoRegular';
-}
-
-.competence .container #p1 {
-  color: #ffffff;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
-.competence .container #p2 {
-  font-size: 14px;
-  color: #868380;
-  line-height: 1.429em;
-  width: 17.857em;
-}
-
-
+li,ul{padding:0;margin:0}ol,ul{list-style:none}li{margin-bottom:10px}.div-competences{height:12.5em;background-color:#45413e;padding:0 3.438em}.competence{float:left;height:100%;width:24.125em}.competence svg{margin:4.063em .938em 0 0}.competence .container{margin:2.188em 1.563em 2.188em 0;float:right}.competence .container #p1,.competence .container #p2{font-family:LatoRegular}.competence .container #p1{color:#fff;font-size:18px;text-transform:uppercase}.competence .container #p2{font-size:14px;color:#868380;line-height:1.429em;width:17.857em}
 </style>
