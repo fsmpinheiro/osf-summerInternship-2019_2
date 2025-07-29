@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="PageHeader">
     <div hidden>
       <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="solid-arrow" viewBox="0 0 41.999 41.999">
@@ -216,7 +216,7 @@
 <script>
 
 export default {
-    name : 'Header'
+    name : 'PageHeader'
 }
 </script>
 

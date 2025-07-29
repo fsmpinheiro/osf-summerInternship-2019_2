@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="HomeView">
     <!-- <Header begin section> -->
     <Header />
     <!-- <Header end section> -->
@@ -41,7 +41,7 @@ import FeaturedProducts from '@/components/FeaturedProducts.vue'
 import Footer from '@/components/Footer.vue' 
 
 export default {
-  name: 'home',
+  name: 'HomeView',
   components: {
     Header,
     SliderOffers,

@@ -1,5 +1,5 @@
 <template>
-    <div class="notfound">
+    <div class="NotFoundView">
         <!-- <Header begin section> -->
         <Header />
         <!-- <Header end section> -->
@@ -20,7 +20,7 @@ import Footer from '@/components/Footer.vue'
 import NotFound from '@/components/Notfound.vue'
 
 export default {
-    name : 'notfound',
+    name : 'NotFoundView',
     components : {
         Header, NotFound, Footer
     }

@@ -1,6 +1,6 @@
 
 <template>
-    <div class="services">
+    <div class="ServicesView">
         <!-- <Header begin section> -->
         <Header />
         <!-- <Header end section> -->
@@ -27,7 +27,7 @@ import FeaturedProducts from '@/components/FeaturedProducts.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
-    name : 'services',
+    name : 'ServicesView',
     components : {
         Header,
         Services,

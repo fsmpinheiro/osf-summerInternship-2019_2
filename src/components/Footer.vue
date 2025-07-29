@@ -116,7 +116,7 @@
                 <ul class="footer-item">
                 <h3>About</h3>
                 <li>
-                    <router-link to="notfound-404-error">About us</router-link>
+                    <router-link to="about">About us</router-link>
                 </li>
                 <li>
                     <router-link to="notfound-404-error">Delivery</router-link>
@@ -179,7 +179,7 @@
 
 <script>
 export default {
-    name : 'Footer',
+    name : 'PageFooter',
 
 
     methods : {

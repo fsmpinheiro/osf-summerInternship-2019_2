@@ -66,7 +66,7 @@
 
 <script>
 export default {
-    name : 'Benefits'
+    name : 'BenefitsComp'
 
 }
 </script>

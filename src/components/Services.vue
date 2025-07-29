@@ -59,7 +59,7 @@
 
 <script>
 export default {
-    name : 'services',
+    name : 'ServicesComp',
 }
 </script>
 
